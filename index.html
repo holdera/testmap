@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Test</title>
+
+    <style>
+        body { font-family: Verdana, Geneva, Tahoma, sans-serif;}
+        button.mapboxgl-ctrl-attrib-button { display: none;}
+        p { padding-top: 20px;}
+    </style>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.js"></script>
+    <!-- klick systems -->
+    <!-- <link href="mapbox://styles/klicksystems/ckoa3yzbm0m1517pha6pftfct" rel="stylesheet" /> -->
+    <!-- my account -->
+    <link href="mapbox://styles/aholder/cl0wfqtt2000814n5c4yn281e" rel="stylesheet" />
+    
+</head>
+<body>
+    <h1>Map Test</h1>
+
+    <p>The map below uses the style url and access token from <strong>aholder's mapbox</strong> account.</p>
+    <div class="map">
+        <div id="map" style="width: 100%; top:-5px; left:30px; height: 700px;"></div>
+    </div>
+
+    <!-- <iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/aholder/cl0wfqtt2000814n5c4yn281e.html?title=false&access_token=pk.eyJ1IjoiYWhvbGRlciIsImEiOiJja3BzcXBvMjgwcHdkMnBxdjYwdXpuZGllIn0.qqOJcH7DfLwwHbGht7-50Q&zoomwheel=false#3.65/20.3/16.3" title="ce-copy" style="border:none;"></iframe> -->
+
+  
+
+    <script src="./map.js"></script>
+
+</body>
+</html>
